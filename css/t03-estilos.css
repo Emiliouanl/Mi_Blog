@@ -1,3 +1,8 @@
+.container {
+    width: 85%;
+    margin: 0 auto;
+}
+
 #zona-encabezado {
     width: 85%;
     background: #394a51; 
@@ -13,11 +18,15 @@
     background: #9ad1aa;
     }
 
-h1 {
-font-family: 'Courier New', Courier, monospace;
-font-size: 32pt;
-color: #ffffff;
+#zona-encabezado h1 {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 32pt;
+    color: #ffffff;
+    font-weight: bold;
+
 }
+
+
 .texto-encabezado {
 font-family: Verdana, Geneva, Tahoma;
 font-size: 12pt;
@@ -49,6 +58,7 @@ padding: 1%;
     font-weight: bold;
     background-color: #fdc57b;
     text-align: center;
+    margin-top: 20px;
 }
 body{
     background-color: #fbf2d5; 
@@ -67,7 +77,15 @@ body{
 
 }
 
-.menu a:hover{
+.container-fluid a:hover{
         background: orange;
-        transform:scale(2);
+        transform:scale(1.5);
 }
+
+.container-fluid{
+    text-align: center;
+    margin: 0 auto;
+    max-width:90%;
+    padding-left: 10%;
+}
+
